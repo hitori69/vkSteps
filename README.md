@@ -1,5 +1,7 @@
-Накрутка шагов
+Накрутка шагов ВКонтакте
 
-https://youtu.be/LmyRrAjEeFo
+Инструкция: https://youtu.be/LmyRrAjEeFo
 
-https://vk.com/hitori.gotou
+Документация по VK API: https://dev.vk.com/ru/api/api-requests
+
+Если появятся вопросы, то постараюсь помочь: https://vk.com/hitori.gotou
