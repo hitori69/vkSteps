@@ -1,6 +1,6 @@
 import requests
 import time
-from datetime import datetime, timedelta
+from datetime import date, timedelta
 from my_token import ACCESS_TOKEN
 
 
@@ -17,8 +17,8 @@ with requests.Session() as sess:
     sess.headers.update({'Authorization': 'Bearer ' + ACCESS_TOKEN})
     sess.params = {'v': 5.131}
 
-    end_date = datetime.now()
-    start_date = datetime.now() - timedelta(days=31)
+    end_date = date.today()
+    start_date = date.today() - timedelta(days=31)
 
     current_date = start_date
     while current_date <= end_date:
